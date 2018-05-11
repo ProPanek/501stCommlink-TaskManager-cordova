@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="libs/sweetalert.min.js"></script>
+    <script src="libs/jquery-1.9.1.min.js"></script>
+    <link href="libs/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="libs/bootstrap.min.js"></script>
+    <link href="libs/bootstrap.min.css" rel="stylesheet" />
+    <title>_501stCommlink</title>
+</head>
+<body>
+    <div id="container">
+        <label for="zadanie">Treść zadania:</label>
+        <textarea type="text" id="zadanie" class="form-control" style="font-weight:normal;"></textarea>
+        <label for="color_select">Wybierz kolor:</label>
+        <select class="form-control" id="color_select">
+            <option value="white">Biały</option>
+            <option value="yellow">Żółty</option>
+            <option value="orange">Pomarańczowy</option>
+            <option value="red">Czerwony</option>
+        </select>
+        <label for="data_od">Wybierz date od:</label>
+        <input id="data_od" type="date" class="form-control" >
+        <label for="data_do">Wybierz date do:</label>
+        <input id="data_do" type="date" class="form-control">
+
+
+    </div>
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/task.js"></script>
+</body>
+</html>
